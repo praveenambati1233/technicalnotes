@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Technical Notes',
+  tagline: 'The tagline of Technical Notes',
+  url: 'https://technicalnotes.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'technicalnotes',
+  projectName: 'technicalnotes.github.io',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Technical Notes',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Technical Notes Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/technicalnotes/technicalnotes',
           label: 'GitHub',
           position: 'right',
         },
@@ -70,12 +70,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/technicalnotes/technicalnotes',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Technical Notes, Built with Docusaurus.`,
     },
   },
   presets: [
@@ -84,15 +84,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/technicalnotes/technicalnotes/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/technicalnotes/technicalnotes/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
