@@ -20,6 +20,10 @@
     "url": "https://github.com/technicalnotes/technicalnotes.git"
   },
   "scripts": {
+    "start": "yarn workspace website start",
+    "build": "yarn workspace website build",
+    "swizzle": "yarn workspace website swizzle",
+    "deploy": "yarn workspace website deploy",
     "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
