@@ -37,6 +37,15 @@ module.exports = {
     ],
     'System Design': [
       'system-design/introduction'
+    ],
+    'Cloud Computing': [
+      {
+        type: 'category',
+        label: 'AWS',
+        items: ['cloud-computing/aws/aws-glossary',
+        'cloud-computing/aws/ec2'
+        ]
+      },
     ]
   },
 };
