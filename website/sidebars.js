@@ -36,6 +36,14 @@ module.exports = {
       }
     ],
     'System Design': [
+      {
+        type: 'category',
+        label: 'Design Patterns',
+        items: [
+          'system-design/design-patterns/design-pattern-glossary',
+          'system-design/design-patterns/singleton'
+        ]
+      },
       'system-design/introduction'
     ],
     'Cloud Computing': [
